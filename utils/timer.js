@@ -17,7 +17,7 @@ define([], function () {
 	        		console.log('end timeout');
 	                if (typeof callback == 'function') callback();
 	                _ref.running = false;
-	        },time*1000);    
+	        },time);    
 		};
 		
 		_ref.every = function(time, callback) {
@@ -30,7 +30,7 @@ define([], function () {
 	            if (typeof callback == 'function') callback();
 	            _callback=null;
 	            _ref.running = false;
-	        },time*1000);    
+	        },time);    
 
 		};
 		_ref.stop = function() {

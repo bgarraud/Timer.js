@@ -12,15 +12,15 @@ var timer = new Timer();
 
 
 
-// call callback function after 4.5secs.
+// call callback function after 4500 Milliseconds
 
-timer.once(4.5, callback);
+timer.once(4500, callback);
 
 
 
-// call callback function every 0.1secs.
+// call callback function every 100 Milliseconds
 
-timer.every(0.1, callback);
+timer.every(100, callback);
 
 
 // stop timer
